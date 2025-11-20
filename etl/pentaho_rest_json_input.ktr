@@ -485,7 +485,7 @@
     </fields>
     <data>
       <line>
-        <item>https://opendata.bogorkab.go.id/api/bigdata/kecamatan_ciomas/jumlah_penduduk_berdasarkan_agama_menurut_desa_di_k_2</item>
+        <item>https://jsonplaceholder.typicode.com/users</item>
       </line>
     </data>
     <attributes/>
@@ -534,8 +534,8 @@
     </file>
     <fields>
       <field>
-        <name>nama_kecamatan</name>
-        <path>$.data[*].bps_nama_kecamatan</path>
+        <name>username</name>
+        <path>$.[*].username</path>
         <type>String</type>
         <format/>
         <currency/>
@@ -638,7 +638,8 @@
     </partitioning>
     <fields>
       <field>
-        <name>nama_kecamatan</name>
+        <name>username</name>
+        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
@@ -698,7 +699,7 @@
     </template>
     <fields>
       <field>
-        <name>nama_kecamatan</name>
+        <name>username</name>
         <type>String</type>
         <format/>
       </field>
